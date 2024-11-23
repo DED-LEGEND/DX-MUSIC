@@ -93,7 +93,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("YARANA_TG)
+                await self.two.join_chat("YARANA_TG")
                 await self.two.join_chat("DX_INFO")
                 await self.two.join_chat("DxFRIENDS")
                 await self.two.join_chat("Dx_shayri")
