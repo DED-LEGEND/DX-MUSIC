@@ -54,7 +54,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/DED-LEGEND/DxPLUGIN",
+    "https://github.com/DED-LEGEND/Extra-Plugin",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -104,7 +104,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    "https://github.com/DED-LEGEND/DxxMUSIC",
+    "",
 )
 
 # Token allow for access youtube songs. [ True = use token data, False = use cookies ]
