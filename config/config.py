@@ -97,14 +97,14 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DED-LEGEND/DxPLUGIN",
+    "https://github.com/DED-LEGEND/DxxMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    "",
+    "https://github.com/DED-LEGEND/DxxMUSIC",
 )
 
 # Token allow for access youtube songs. [ True = use token data, False = use cookies ]
@@ -149,7 +149,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/DED-LEGEND/LUCKY-MUSIC2")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/DED-LEGEND/DxxMUSIC")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
